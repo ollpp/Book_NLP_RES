@@ -8,11 +8,11 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 db = conn()
-book_emotion = pd.read_csv('/Users/vkdlx/Desktop/coding/group_project1/lib/book_emotion.csv')
-category_mat = np.array(pd.read_csv('/Users/vkdlx/Desktop/coding/group_project1/lib/category_mat.csv').drop(columns='Unnamed: 0'))
-author_mat = np.array(pd.read_csv('/Users/vkdlx/Desktop/coding/group_project1/lib/author_mat.csv').drop(columns='Unnamed: 0'))
-keyword_mat = np.array(pd.read_csv('/Users/vkdlx/Desktop/coding/group_project1/lib/keyword_mat.csv').drop(columns='Unnamed: 0'))
-avg_score = np.array(pd.read_csv('/Users/vkdlx/Desktop/coding/group_project1/lib/avg_score.csv').drop(columns='Unnamed: 0')).reshape(-1,)
+book_emotion = pd.read_csv('/Users/seokhwan/Library/CloudStorage/OneDrive-개인/sh/00. 백업/lib/book_emotion.csv')
+category_mat = np.array(pd.read_csv('/Users/seokhwan/Library/CloudStorage/OneDrive-개인/sh/00. 백업/lib/category_mat.csv').drop(columns='Unnamed: 0'))
+author_mat = np.array(pd.read_csv('/Users/seokhwan/Library/CloudStorage/OneDrive-개인/sh/00. 백업/lib/author_mat.csv').drop(columns='Unnamed: 0'))
+keyword_mat = np.array(pd.read_csv('/Users/seokhwan/Library/CloudStorage/OneDrive-개인/sh/00. 백업/lib/keyword_mat.csv').drop(columns='Unnamed: 0'))
+avg_score = np.array(pd.read_csv('/Users/seokhwan/Library/CloudStorage/OneDrive-개인/sh/00. 백업/lib/avg_score.csv').drop(columns='Unnamed: 0')).reshape(-1,)
 
 def emotion_func(emotion): # emotion은 0-6까지 숫자로 변환된 감정
     emotion_sim = np.where(book_emotion['emotion']==emotion, 1, 0)
