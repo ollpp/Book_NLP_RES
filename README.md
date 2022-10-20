@@ -1,15 +1,19 @@
 # Book NLP Recommend Service
+참고링크 : https://www.notion.so/ollpp/AI-01f10c2b999a4919b07f3760c5991c30
 
 </br>
 </br>
 
-## 프로젝트 개요
+## 👀 프로젝트 개요
 1. 음원, 동영상, 드라마, 영화, 도서 등 다양한 상품군에서 소비자를 향한 추천 서비스가 늘어나고 있다.
 2. 사용자 데이터를 수집하여 사용자의 니즈를 보다 정확히 판단하고, User-Item 기반 추천 시스템을 통한 매출 증가를 목표로 서비스 개발 진행
+
+수행 역할 : 프로젝트의 `키워드 추출`, `감성 분석` 을 맡아 진행
+
 </br>
 </br>
 
-## 필요한 데이터셋 소개
+## 📕 필요한 데이터셋 소개
 
   - 모델 학습 및 서비스 구현에 필요한 데이터 : https://drive.google.com/file/d/1Qunmj9LLO_3JfzHsIid4LXzBFwjM4T2f/view?usp=sharing
   - `book_table.csv` : book_data.py 를 통해 책 정보를 크롤링한 초기 데이터셋
@@ -25,7 +29,7 @@
 </br>
 </br>
 
-## 서비스 설명
+## 📈 서비스 설명
 1. 디렉토리 구조
   - book_res_nlp
     - modeling_note : NLP 및 추천 시스템 구현 파일
@@ -56,7 +60,7 @@
         
         </br></br>
 
-## 결론
+## 💻 결론
 1. 사회/비즈니스적 예상 활용
     1. 챗봇 시스템을 추가 구현한다면 사용자 접근성을 높일 수 있을것으로 예상
     2. 위 서비스를 사용하는 사용자를 대상으로 광고를 추가하여 추가 수익 가능
@@ -66,7 +70,7 @@
     
 </br></br>
 
-## 참고 자료
+## 💽 참고 자료
 - [https://trading-for-chicken.tistory.com/19](https://trading-for-chicken.tistory.com/19) (chromedriver 자동 업데이트)
 - [https://velog.io/@shchae04/Python-4Day](https://velog.io/@shchae04/Python-4Day) (크롤링 사용법)
 - [https://github.com/ollpp/publicservant_AI](https://github.com/ollpp/publicservant_AI) (Bert 사전학습)
