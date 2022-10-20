@@ -1,5 +1,5 @@
 # Book NLP Recommend Service
-참고링크 : https://www.notion.so/ollpp/AI-01f10c2b999a4919b07f3760c5991c30
+참고 링크(notion 포트폴리오) : https://www.notion.so/ollpp/AI-01f10c2b999a4919b07f3760c5991c30
 
 </br>
 </br>
